@@ -1,0 +1,51 @@
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+.env
+
+# Model artifacts
+*.pkl
+*.h5
+*.joblib
+mlruns/
+mlflow.db
+
+# DVC
+.dvc/
+dvc.lock
+
+# Data
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Railway
+*.local
+
+.vercel/
+node_modules/
+
+frontend-prod/
+vercel-site/
