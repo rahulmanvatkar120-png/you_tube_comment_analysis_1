@@ -46,6 +46,3 @@ dist/
 
 .vercel/
 node_modules/
-
-frontend-prod/
-vercel-site/

@@ -10,7 +10,6 @@ COPY flask_app/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY flask_app/ .
-COPY frontend-prod/ ./frontend-prod/
 
 EXPOSE 8000
 
