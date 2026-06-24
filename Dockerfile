@@ -6,11 +6,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY flask_app/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY flask_app/ .
+COPY frontend-prod/ ./frontend-prod/
 
 EXPOSE 8000
 
-CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:8000", "--workers", "2", "--timeout", "120"]
+CMD exec gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
