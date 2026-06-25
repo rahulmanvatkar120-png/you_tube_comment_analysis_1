@@ -68,7 +68,7 @@ export default function Home() {
   const [apiStatus, setApiStatus] = useState('checking')
 
   useEffect(() => {
-    fetch('https://yt-sentiment-api.up.railway.app/health')
+    fetch('https://youtubecommentanalysis1-production-b756.up.railway.app/health')
       .then(r => r.ok ? setApiStatus('online') : setApiStatus('offline'))
       .catch(() => setApiStatus('offline'))
   }, [])
