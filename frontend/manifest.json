@@ -12,8 +12,7 @@
     "scripting"
   ],
   "host_permissions": [
-    "http://127.0.0.1:8000/*",
-    "http://192.168.1.11:8000/*",
+    "https://youtubecommentanalysis1-production-b756.up.railway.app/*",
     "https://www.youtube.com/*",
     "https://www.googleapis.com/*",
     "https://generativelanguage.googleapis.com/*"

@@ -25,6 +25,7 @@ import matplotlib.dates as mdates
 app = Flask(__name__)
 CORS(app, origins=[
     "https://yt-sentiment-analyzer.vercel.app",
+    "https://youtubecommentanalysis1.vercel.app",
     "http://localhost:3000",
     "chrome-extension://*"
 ])

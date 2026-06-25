@@ -11,7 +11,7 @@
     "tabs"
   ],
   "host_permissions": [
-    "https://yt-sentiment-api.up.railway.app/*",
+    "https://youtubecommentanalysis1-production-b756.up.railway.app/*",
     "https://www.youtube.com/*"
   ],
   "content_scripts": [

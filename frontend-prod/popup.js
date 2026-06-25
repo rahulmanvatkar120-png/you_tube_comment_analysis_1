@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const outputDiv = document.getElementById("output");
-  const API_URL = 'https://yt-sentiment-api.up.railway.app';
+  const API_URL = 'https://youtubecommentanalysis1-production-b756.up.railway.app';
 
   function showIdle() {
     outputDiv.innerHTML = `<div class="idle-state"><div class="idle-icon">🎬</div><div class="idle-text">Open a YouTube video<br>to analyze its comments</div></div>`;
