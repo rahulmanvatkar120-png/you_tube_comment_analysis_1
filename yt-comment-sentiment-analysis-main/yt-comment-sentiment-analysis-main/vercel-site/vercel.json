@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/vercel-site/extension.zip",
-      "destination": "/extension.zip"
-    }
-  ]
-}
