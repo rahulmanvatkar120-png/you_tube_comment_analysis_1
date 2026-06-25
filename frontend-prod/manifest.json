@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Analyze YouTube video comments for sentiment. Get AI-powered insights, charts, and creator analytics.",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
   "permissions": [
     "activeTab",
