@@ -1,3 +1,9 @@
 {
-  "outputDirectory": "frontend-prod"
+  "outputDirectory": "frontend-prod",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
